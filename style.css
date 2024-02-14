@@ -48,9 +48,9 @@ nav .logo {
     margin-bottom: 40px;
 }
 .gallery img {
-    border-radius: 23px 23px 23px 23px;
-    -webkit-border-radius: 23px 23px 23px 23px;
-    -moz-border-radius: 23px 23px 23px 23px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
 }
 .quote {
     height: 360px;
@@ -67,4 +67,41 @@ cite {
     display: block;
     text-align: right;
     margin-top: 1em;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+.cta .container {
+    color: #fff;
+    width: 1016px;
+    height: 150px;
+    background-color: #3B82F6;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 24px 104px;
+    display: flex;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #1F2937;
+    height: 96px;
+}
+button {
+    max-width: 132px;
+    max-height: 40px;
+    color: #fff;
+    background: #3B82F6;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 40px;
 }
