@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+
 * {
     box-sizing: border-box;
 }
 body {
-    font: 100 16px/1.4 'Roboto';
+    font: 100 16px/1.4 'Raleway';
+    font-family: sans-serif;
     width: 100%;
     margin: 0;
 }
@@ -58,6 +61,8 @@ nav .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    font-weight: 100;
 }
 blockquote {
     max-width: 800px;
