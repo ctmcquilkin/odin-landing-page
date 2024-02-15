@@ -82,13 +82,19 @@ cite {
 .cta .container {
     color: #fff;
     width: 1016px;
-    height: 150px;
+    height: 88px;
     background-color: #3B82F6;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     padding: 24px 104px;
     display: flex;
+}
+.cta .container h3 {
+    margin-bottom: 0;
+}
+.cta .container p {
+    margin-top: 0;
 }
 footer {
     display: flex;
@@ -109,4 +115,5 @@ button {
     cursor: pointer;
     border-radius: 8px;
     padding: 8px 40px;
+    margin-top: 24px;
 }
